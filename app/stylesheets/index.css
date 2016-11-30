@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Helvetica Neue', sans-serif;
+  margin: 2em;
+}
+
+
+.row {
+  display: block;
+}
+
+.cell {
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 2em;
+  transform: translateZ(0);
+}
