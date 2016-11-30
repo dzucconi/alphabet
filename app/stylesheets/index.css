@@ -20,6 +20,7 @@ body {
   -webkit-font-smoothing: antialiased;
   font-family: 'Helvetica Neue', sans-serif;
   margin: 2em;
+  font-size: 12px;
 }
 
 
@@ -31,8 +32,10 @@ body {
   display: inline-block;
   width: 2em;
   height: 2em;
-  text-align: center;
-  vertical-align: middle;
-  line-height: 2em;
   transform: translateZ(0);
 }
+  .cell--centered {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 2em;
+  }
