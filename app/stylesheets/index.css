@@ -19,20 +19,34 @@ body {
   color: black;
   -webkit-font-smoothing: antialiased;
   font-family: 'Helvetica Neue', sans-serif;
-  margin: 2em;
   font-size: 12px;
 }
 
+a {
+  color: #2b6dad;
+}
+
+.app {
+  display: inline-block;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: calc(2em * 27);
+  height: calc(2em * 27);
+  transform: translate(-50%, -50%);
+}
 
 .row {
   display: block;
+  clear: both;
 }
 
 .cell {
-  display: inline-block;
+  float: left;
   width: 2em;
   height: 2em;
   transform: translateZ(0);
+
 }
   .cell--centered {
     text-align: center;
